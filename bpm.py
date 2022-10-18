@@ -26,6 +26,7 @@ class BPMCounter:
 
 def main():
     bpm_counter = BPMCounter()
+    print("Hit enter in time with the beat to find bpm")
     while True:
         start = time.perf_counter()
         input()
