@@ -148,4 +148,3 @@ def test_get_bpm_returns_correct_value(bpm_counter):
     bpm = bpm_counter.get_bpm()
     assert bpm == 120
     bpm_counter.reset()
-

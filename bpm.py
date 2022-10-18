@@ -1,5 +1,6 @@
 import time
 
+
 class BPMCounter:
     """
     BPM = 1 min / beat duration
@@ -31,11 +32,10 @@ def main():
         start = time.perf_counter()
         input()
         end = time.perf_counter()
-        bpm_counter.count(end-start)
+        bpm_counter.count(end - start)
         if len(bpm_counter.durations) > 10:
             bpm_counter.durations.pop(0)
         print(bpm_counter.get_bpm())
-
 
 
 if __name__ == "__main__":
