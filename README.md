@@ -8,3 +8,7 @@ $ source env/bin/activate
 $ pip install -r requirements.txt
 $ python bpm.py
 ```
+# test suite
+```
+$ pytest
+```
