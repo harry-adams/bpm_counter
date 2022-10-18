@@ -22,7 +22,7 @@ class BPMCounter:
 
     def get_bpm(self):
         bpm = 60 / self.average_array(self.durations)
-        return bpm
+        return round(bpm)
 
 
 def main():
