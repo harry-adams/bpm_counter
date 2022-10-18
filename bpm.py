@@ -33,7 +33,7 @@ def main():
         input()
         end = time.perf_counter()
         bpm_counter.count(end - start)
-        if len(bpm_counter.durations) > 10:
+        if len(bpm_counter.durations) > 5:
             bpm_counter.durations.pop(0)
         print(bpm_counter.get_bpm())
 
