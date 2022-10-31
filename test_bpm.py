@@ -4,20 +4,17 @@ from bpm.bpm import BPMCounter
 
 @pytest.fixture
 def bpm_counter():
-    bpm_counter = BPMCounter()
-    return bpm_counter
+    return BPMCounter()
 
 
 @pytest.fixture
 def average_array(bpm_counter):
-    average_array = bpm_counter.average_array
-    return average_array
+    return bpm_counter.average_array
 
 
 @pytest.fixture
 def get_bpm(bpm_counter):
-    get_bpm = bpm_counter.get_bpm
-    return get_bpm
+    return bpm_counter.get_bpm
 
 
 """
